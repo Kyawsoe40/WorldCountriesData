@@ -1,0 +1,132 @@
+*,body{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-y: hidden;
+}
+.header-section{
+    background:linear-gradient(to right, rgba(4, 84, 95, 0.4), rgba(5, 91, 102, 0.4)),url(../img/globe-2.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+.header-section h2{
+    padding-top: 100px;
+    font-size: 50px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #fff;
+}
+.display-none{
+    display: none;
+}
+.header-section h5{
+    font-size: 20px;
+    color: #fff;
+
+}
+.header-section p{
+    font-size: 20px;
+    color: #fff;
+
+}
+.header-section .search-keyword{
+    color: rgba(219, 2, 2, 0.877);
+    font-style: italic;
+    font-weight: bold;
+}
+.header-section .country-count{
+    color: rgb(140, 255, 9);
+    font-weight: bold;
+}
+.header-section .button-box{
+    margin: 30px auto;
+}
+.header-section .button-box button{
+    background-color: #895BE5;
+    padding: 10px 15px;
+    font-size: bold;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.header-section .button-box button:hover{
+    background-color: #541CB2;
+}
+.header-section .input-box{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+.header-section .input-box input{
+    width: 400px;
+    height: 30px;
+    border-radius: 20px;
+    outline: none;
+    border-color: rgba(182, 245, 253, 1);
+    margin-right: 10px;
+    padding-left: 20px;
+    font-weight: bold;
+}
+.header-section .input-box button{
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0.7;
+}
+.output-section{
+    display: grid;
+    grid-template-columns: 16% 16% 16% 16% 16% 16%;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+.country{
+    margin: 30px auto;
+    background-image: linear-gradient(to right, rgba(4, 84, 95, 0.4), rgba(5, 91, 102, 0.4)),url(../img/map_image.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.spinner-wrapper{
+    width: 100vm;
+    height: 100vh;
+    background-color: #eee;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.spinner {
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 10px solid #151515;
+    width: 100px;
+    height: 100px;
+    -webkit-animation: spin 2s linear infinite; /* Safari */
+    animation: spin 2s linear infinite;
+    margin: auto auto;
+  }
+  
+  /* Safari */
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+a{
+    font-size: 20px;
+}

@@ -1,0 +1,71 @@
+
+*,body{
+    padding: 0;
+    margin: 0;
+}
+header{
+    border-bottom: 2px solid #aaa;
+    text-align: center;
+    background-color: #eee;
+    margin: 0;
+    padding: 0;
+}
+header h2{
+    font-size: 50px;
+    color: #F2A93B;
+    margin: 0;
+    padding-top: 20px;
+}
+header h5{
+    font-size: 20px;
+    margin: 15px;
+    color: #aaa;
+}
+.button-section{
+    margin: 30px ;
+    text-align: center;
+}
+.button-box button{
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #F2A93B;
+    border-color: transparent;
+    font-weight: bold;
+    cursor: pointer;
+}
+.button-section h5{
+    font-size: 20px;
+    font-weight: lighter;
+    margin: 10px;
+}
+.output-section{
+    border-top: 2px solid #aaa;
+    background-color: #eee;
+    padding-top: 50px;
+}
+
+.country{
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+}
+.graph{
+    width: 500px;
+    height: 33px;
+}
+.name,.population{
+    font-size: 20px;
+    margin-top: 20px;
+    text-align: left;
+    justify-content: left;
+    width: 120px;
+    margin: 5px auto;
+}
+.language-box{
+    display: none;
+}
+a{
+    color: #F2A93B;
+    font-size: 20px;
+    font-weight: bold;
+}
